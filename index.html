@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lynx Devs | SaaS Development Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(90deg, #60A5FA, #A78BFA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200">
+
+    <nav class="fixed w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tighter text-white">LYNX<span class="text-blue-500">DEVS</span></div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest">
+                <a href="#products" class="hover:text-blue-400 transition">Products</a>
+                <a href="#services" class="hover:text-blue-400 transition">SaaS Solutions</a>
+                <a href="mailto:hello@lynx-devs.com" class="bg-blue-600 px-4 py-2 rounded text-white hover:bg-blue-500 transition">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="max-w-3xl">
+                <h1 class="text-5xl lg:text-7xl font-bold text-white leading-tight mb-6">
+                    Engineering the next generation of <span class="gradient-text">SaaS.</span>
+                </h1>
+                <p class="text-lg lg:text-xl text-slate-400 mb-10 leading-relaxed">
+                    We are a high-performance development society specializing in scalable architectures, cloud infrastructure, and user-centric software.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#products" class="bg-white text-slate-950 px-8 py-4 rounded-full font-bold text-center hover:bg-blue-400 transition-all">View Our Work</a>
+                    <a href="https://github.com/lynx-devs" class="border border-slate-700 px-8 py-4 rounded-full font-bold text-center hover:bg-slate-900 transition-all">Follow on GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-[600px] h-[600px] bg-blue-500/10 blur-[120px] rounded-full"></div>
+    </header>
+
+    <section id="products" class="py-24 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="mb-16">
+                <h2 class="text-sm font-semibold uppercase tracking-[0.2em] text-blue-500 mb-2">Featured Project</h2>
+                <h3 class="text-4xl font-bold text-white">Encuentravet</h3>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <p class="text-xl text-slate-300">
+                        The comprehensive B2B SaaS ecosystem for the veterinary industry. 
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="text-blue-500 mr-3 text-xl">✔</span>
+                            <span>Intelligent veterinary clinic directory & discovery.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-500 mr-3 text-xl">✔</span>
+                            <span>Streamlined B2B management tools for pet professionals.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-500 mr-3 text-xl">✔</span>
+                            <span>Real-time booking and medical record synchronization.</span>
+                        </li>
+                    </ul>
+                    <div class="pt-4">
+                        <a href="#" class="inline-flex items-center text-blue-400 font-semibold hover:underline">
+                            Explore Encuentravet 
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                    <div class="relative bg-slate-800 rounded-xl overflow-hidden border border-slate-700 h-80 flex items-center justify-center">
+                        <span class="text-slate-500 font-mono">[ Encuentravet Dashboard Preview ]</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24">
+        <div class="max-w-7xl mx-auto px-6 text-center mb-16">
+            <h2 class="text-4xl font-bold text-white">Our Expertise</h2>
+            <p class="mt-4 text-slate-400 max-w-2xl mx-auto text-lg">We don't just write code; we build sustainable digital businesses.</p>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+            <div class="p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition">
+                <div class="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center text-blue-400 mb-6 font-bold">Go</div>
+                <h4 class="text-xl font-bold text-white mb-3">Cloud Infrastructure</h4>
+                <p class="text-slate-400">High-concurrency backends built with Golang and deployed on containerized environments.</p>
+            </div>
+            <div class="p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition">
+                <div class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center text-purple-400 mb-6 font-bold">SQL</div>
+                <h4 class="text-xl font-bold text-white mb-3">Data Integrity</h4>
+                <p class="text-slate-400">Complex PostgreSQL schema design with a focus on performance and strict isolation.</p>
+            </div>
+            <div class="p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition">
+                <div class="w-12 h-12 bg-cyan-500/20 rounded-lg flex items-center justify-center text-cyan-400 mb-6 font-bold">JS</div>
+                <h4 class="text-xl font-bold text-white mb-3">Modern Frontends</h4>
+                <p class="text-slate-400">Reactive, type-safe interfaces built with React and Tailwind for optimal UX.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-slate-800 text-center">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-xl font-bold text-white mb-4 italic">LYNX DEVS</div>
+            <p class="text-slate-500 text-sm">© 2026 Lynx Devs. Built for the future of Mexico's SaaS ecosystem.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
