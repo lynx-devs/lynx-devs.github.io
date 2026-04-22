@@ -1,0 +1,5 @@
+# https://lynx-devs.com
+User-agent: *
+Allow: /
+
+Sitemap: https://lynx-devs.com/sitemap.xml
